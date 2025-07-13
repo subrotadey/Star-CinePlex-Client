@@ -8,7 +8,7 @@ export const showsData = [
     "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
     "poster": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
-    "jenres": [
+    "genres": [
       { "id": 1, "name": "Action" },
       { "id": 2, "name": "Science Fiction" },
       { "id": 3, "name": "Adventure" },
@@ -28,7 +28,7 @@ export const showsData = [
     "overview": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
     "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/7u3pxc0K1wx32IleAkLv78MKgrw.jpg",
-    "jenres": [
+    "genres": [
       { "id": 1, "name": "Action" },
       { "id": 5, "name": "Science Fiction" }
     ],
@@ -46,7 +46,7 @@ export const showsData = [
     "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
-    "jenres": [
+    "genres": [
       { "id": 2, "name": "Science Fiction" },
       { "id": 3, "name": "Adventure" },
       { "id": 6, "name": "Drama" }
@@ -65,7 +65,7 @@ export const showsData = [
     "overview": "Batman faces the Joker, a criminal mastermind who seeks to create chaos in Gotham City.",
     "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/hLHXqBE89rZx08xGNF9LeJC5bBk.jpg",
-    "jenres": [
+    "genres": [
       { "id": 1, "name": "Action" },
       { "id": 7, "name": "Crime" },
       { "id": 6, "name": "Drama" }
@@ -84,7 +84,7 @@ export const showsData = [
     "overview": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
     "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg",
-    "jenres": [
+    "genres": [
       { "id": 6, "name": "Drama" },
       { "id": 8, "name": "Thriller" }
     ],
@@ -102,7 +102,7 @@ export const showsData = [
     "overview": "The lives of two mob hitmen, a boxer, and others intertwine in four tales of violence and redemption.",
     "poster": "https://image.tmdb.org/t/p/w500/dM2w364MScsjFf8pfMbaWUcWrR.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/9rZg1J6vMQoDVSgRyWcpJa8IAGy.jpg",
-    "jenres": [
+    "genres": [
       { "id": 7, "name": "Crime" },
       { "id": 6, "name": "Drama" }
     ],
@@ -120,7 +120,7 @@ export const showsData = [
     "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of decency.",
     "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
-    "jenres": [
+    "genres": [
       { "id": 6, "name": "Drama" }
     ],
     "casts": castData,
@@ -137,7 +137,7 @@ export const showsData = [
     "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
     "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
-    "jenres": [
+    "genres": [
       { "id": 1, "name": "Action" },
       { "id": 6, "name": "Drama" },
       { "id": 7, "name": "Crime" }
@@ -156,7 +156,7 @@ export const showsData = [
     "overview": "A meek Hobbit and eight companions set out to destroy the One Ring and save Middle-earth.",
     "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "jenres": [
+    "genres": [
       { "id": 3, "name": "Adventure" },
       { "id": 9, "name": "Fantasy" }
     ],
@@ -174,7 +174,7 @@ export const showsData = [
     "overview": "A paraplegic Marine dispatched to the moon Pandora becomes torn between following orders and protecting an alien civilization.",
     "poster": "https://image.tmdb.org/t/p/w500/kmcqlZGaSh20zpTbuoF0Fvtn6yT.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/xLv2oZOVrH7n5TfjrGzSQPh7Zx1.jpg",
-    "jenres": [
+    "genres": [
       { "id": 2, "name": "Science Fiction" },
       { "id": 3, "name": "Adventure" }
     ],
@@ -192,7 +192,7 @@ export const showsData = [
     "overview": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious Titanic.",
     "poster": "https://image.tmdb.org/t/p/w500/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
-    "jenres": [
+    "genres": [
       { "id": 6, "name": "Drama" },
       { "id": 4, "name": "Romance" }
     ],
@@ -210,7 +210,7 @@ export const showsData = [
     "overview": "Earth's mightiest heroes must come together to stop Loki and his alien army from enslaving humanity.",
     "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w500/hbn1axvAqQfA9ApgZ4xODiRkhZj.jpg",
-    "jenres": [
+    "genres": [
       { "id": 1, "name": "Action" },
       { "id": 2, "name": "Science Fiction" },
       { "id": 3, "name": "Adventure" }

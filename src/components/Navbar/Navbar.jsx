@@ -15,7 +15,7 @@ const Navbar = () => {
   const { user } = useUser();
   const { openSignIn } = useClerk();
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <div className="fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-6 lg:px-36 py-5">
@@ -35,7 +35,8 @@ const Navbar = () => {
         ></XIcon>
         <NavLink
           onClick={() => {
-            scrollTo(0, 0), setOpen(false);
+            scrollTo(0, 0);
+            setOpen(false);
           }}
           to="/"
         >
@@ -43,7 +44,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           onClick={() => {
-            scrollTo(0, 0), setOpen(false);
+            scrollTo(0, 0);
+            setOpen(false);
           }}
           to="/movies"
         >
@@ -51,7 +53,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           onClick={() => {
-            scrollTo(0, 0), setOpen(false);
+            scrollTo(0, 0);
+            setOpen(false);
           }}
           to="/theater"
         >
@@ -59,7 +62,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           onClick={() => {
-            scrollTo(0, 0), setOpen(false);
+            scrollTo(0, 0);
+            setOpen(false);
           }}
           to="/releases"
         >
@@ -67,7 +71,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           onClick={() => {
-            scrollTo(0, 0), setOpen(false);
+            scrollTo(0, 0);
+            setOpen(false);
           }}
           to="/favorite"
         >
@@ -86,7 +91,11 @@ const Navbar = () => {
         ) : (
           <UserButton>
             <UserButton.MenuItems>
-              <UserButton.Action label="My Bookings" labelIcon={<TicketPlus width={15}/>}  onClick={()=> navigate('/my-bookings')}/>
+              <UserButton.Action
+                label="My Bookings"
+                labelIcon={<TicketPlus width={15} />}
+                onClick={() => navigate("/my-bookings")}
+              />
             </UserButton.MenuItems>
           </UserButton>
         )}

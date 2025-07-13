@@ -1,14 +1,14 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 
 const MainLayout = () => {
-  const isAdminRoute = useLocation().pathname.startsWith("/admin");
+  // const isAdminRoute = useLocation().pathname.startsWith("/admin");
   return (
     <>
-      {isAdminRoute && <Navbar />}
+      <Navbar />
       <Outlet></Outlet>
-      {isAdminRoute && <Footer />}
+      <Footer />
     </>
   );
 };
