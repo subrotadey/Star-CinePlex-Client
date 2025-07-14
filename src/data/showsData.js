@@ -2,12 +2,12 @@ import { castData } from "./castData"
 
 export const showsData = [
   {
-    "_id": "1000000001",
-    "id": 1000000001,
+    "_id": "1",
+    "id": 1,
     "title": "Inception",
     "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
     "poster": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+    "backdrop": "https://i.ibb.co/TMFgRJB6/download-3.jpg",
     "genres": [
       { "id": 1, "name": "Action" },
       { "id": 2, "name": "Science Fiction" },
@@ -22,12 +22,12 @@ export const showsData = [
     "tagline": "Your mind is the scene of the crime."
   },
   {
-    "_id": "1000000002",
-    "id": 1000000002,
+    "_id": "2",
+    "id": 2,
     "title": "The Matrix",
     "overview": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
     "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/7u3pxc0K1wx32IleAkLv78MKgrw.jpg",
+    "backdrop": "https://i.ibb.co/hxcYdFgk/download-4.jpg",
     "genres": [
       { "id": 1, "name": "Action" },
       { "id": 5, "name": "Science Fiction" }
@@ -39,13 +39,16 @@ export const showsData = [
     "rating": 8.7,
     "tagline": "Welcome to the Real World."
   },
+
+
+
   {
-    "_id": "1000000003",
-    "id": 1000000003,
+    "_id": "3",
+    "id": 3,
     "title": "Interstellar",
     "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg",
+    "backdrop": "https://i.ibb.co/4wnDRc28/download-5.jpg",
     "genres": [
       { "id": 2, "name": "Science Fiction" },
       { "id": 3, "name": "Adventure" },
@@ -59,12 +62,12 @@ export const showsData = [
     "tagline": "Mankind was born on Earth. It was never meant to die here."
   },
   {
-    "_id": "1000000004",
-    "id": 1000000004,
+    "_id": "4",
+    "id": 4,
     "title": "The Dark Knight",
     "overview": "Batman faces the Joker, a criminal mastermind who seeks to create chaos in Gotham City.",
     "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/hLHXqBE89rZx08xGNF9LeJC5bBk.jpg",
+    "backdrop": "https://i.ibb.co/3ypSR39Y/download-6.jpg",
     "genres": [
       { "id": 1, "name": "Action" },
       { "id": 7, "name": "Crime" },

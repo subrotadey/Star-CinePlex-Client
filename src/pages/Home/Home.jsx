@@ -8,11 +8,9 @@ import TrailerSection from '../../components/TrailerSection/TrailerSection';
 const Home = () => {
     return (
         <>
-            <Navbar></Navbar>
             <HeroSection></HeroSection>
             <FeatureSection/>
             <TrailerSection/>
-            <Footer></Footer>
         </>
     );
 };
