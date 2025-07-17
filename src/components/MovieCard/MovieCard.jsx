@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
     <div className="flex flex-col items-center justify-between bg-gray-800 p-3 rounded-2xl hover:-translate-y-1 transition w-66 duration-300">
       <img
         onClick={() => {
-          navigate(`/movie/${movie.id}`);
+          navigate(`/movies/${movie.id}`);
           scrollTo(0, 0);
         }}
         src={movie.backdrop}
