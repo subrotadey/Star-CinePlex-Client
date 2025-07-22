@@ -1,58 +1,66 @@
 export const castData = [
+
+  
+
+
+
+
+
+
   {
     "name": "Leonardo DiCaprio",
     "role": "Lead Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Leonardo_DiCaprio_66ème_Festival_de_Venise_%28Mostra%29.jpg"
+    "image": "https://i.ibb.co/kV3xZtyQ/Leonardo-Di-Caprio.jpg"
   },
   {
     "name": "Joseph Gordon-Levitt",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Joseph_Gordon-Levitt_2012.jpg"
+    "image": "https://i.ibb.co/ZpKbFYnb/Joseph-Gordon-Levitt.jpg"
   },
   {
     "name": "Elliot Page",
     "role": "Supporting Actress",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Elliot_Page_2016.jpg"
+    "image": "https://i.ibb.co/zh1jzcpc/Elliot-Page.jpg"
   },
   {
     "name": "Tom Hardy",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tom_Hardy_2015.jpg"
+    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
   },
   {
     "name": "Ken Watanabe",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ken_Watanabe_2012.jpg"
+    "image": "https://i.ibb.co/6zg25cL/Ken-Watanabe.jpg"
   },
   {
     "name": "Dileep Rao",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Dileep_Rao_2011.jpg"
+    "image": "https://i.ibb.co/Xv5SvrW/Dileep-Rao.jpg"
   },
   {
     "name": "Cillian Murphy",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cillian_Murphy_2015.jpg"
+    "image": "https://i.ibb.co/CKSh34Mp/Cillian-Murphy.jpg"
   },
   {
     "name": "Marion Cotillard",
     "role": "Supporting Actress",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Marion_Cotillard_Cannes_2014.jpg"
+    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
   },
   {
     "name": "Michael Caine",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Michael_Caine_2010.jpg"
+    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
   },
   {
     "name": "Tom Berenger",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tom_Berenger_2015.jpg"
+    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
   },
   {
     "name": "Pete Postlethwaite",
     "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pete_Postlethwaite_2007.jpg"
+    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
   },
   {
     "name": "Lukas Haas",
