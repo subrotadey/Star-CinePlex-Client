@@ -2,229 +2,145 @@ import { castData } from "./castData"
 
 export const showsData = [
   {
-    "_id": "1",
-    "id": 1,
-    "title": "Inception",
-    "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-    "poster": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
-    "backdrop": "https://i.ibb.co/TMFgRJB6/download-3.jpg",
-    "genres": [
-      { "id": 1, "name": "Action" },
-      { "id": 2, "name": "Science Fiction" },
-      { "id": 3, "name": "Adventure" },
-      { "id": 4, "name": "Thriller" }
-    ],
-    "casts": castData,
-    "releaseDate": "2010-07-16",
-    "runtime": 148,
-    "originalLanguage": "en",
-    "rating": 8.8,
-    "tagline": "Your mind is the scene of the crime."
-  },
-  {
-    "_id": "2",
-    "id": 2,
-    "title": "The Matrix",
-    "overview": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
-    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
-    "backdrop": "https://i.ibb.co/hxcYdFgk/download-4.jpg",
-    "genres": [
-      { "id": 1, "name": "Action" },
-      { "id": 5, "name": "Science Fiction" }
-    ],
-    "casts": castData,
-    "releaseDate": "1999-03-31",
-    "runtime": 136,
-    "originalLanguage": "en",
-    "rating": 8.7,
-    "tagline": "Welcome to the Real World."
-  },
-
-
-
-  {
-    "_id": "3",
-    "id": 3,
-    "title": "Interstellar",
-    "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
-    "backdrop": "https://i.ibb.co/4wnDRc28/download-5.jpg",
-    "genres": [
-      { "id": 2, "name": "Science Fiction" },
-      { "id": 3, "name": "Adventure" },
-      { "id": 6, "name": "Drama" }
-    ],
-    "casts": castData,
-    "releaseDate": "2014-11-07",
-    "runtime": 169,
-    "originalLanguage": "en",
-    "rating": 8.6,
-    "tagline": "Mankind was born on Earth. It was never meant to die here."
-  },
-  {
-    "_id": "4",
-    "id": 4,
-    "title": "The Dark Knight",
-    "overview": "Batman faces the Joker, a criminal mastermind who seeks to create chaos in Gotham City.",
-    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdrop": "https://i.ibb.co/3ypSR39Y/download-6.jpg",
-    "genres": [
-      { "id": 1, "name": "Action" },
-      { "id": 7, "name": "Crime" },
-      { "id": 6, "name": "Drama" }
-    ],
-    "casts": castData,
-    "releaseDate": "2008-07-18",
-    "runtime": 152,
-    "originalLanguage": "en",
-    "rating": 9.0,
-    "tagline": "Why So Serious?"
-  },
-  {
-    "_id": "1000000005",
-    "id": 1000000005,
-    "title": "Fight Club",
-    "overview": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
-    "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg",
-    "genres": [
-      { "id": 6, "name": "Drama" },
-      { "id": 8, "name": "Thriller" }
-    ],
-    "casts": castData,
-    "releaseDate": "1999-10-15",
-    "runtime": 139,
-    "originalLanguage": "en",
-    "rating": 8.8,
-    "tagline": "Mischief. Mayhem. Soap."
-  },
-  {
-    "_id": "1000000006",
-    "id": 1000000006,
-    "title": "Pulp Fiction",
-    "overview": "The lives of two mob hitmen, a boxer, and others intertwine in four tales of violence and redemption.",
-    "poster": "https://image.tmdb.org/t/p/w500/dM2w364MScsjFf8pfMbaWUcWrR.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/9rZg1J6vMQoDVSgRyWcpJa8IAGy.jpg",
-    "genres": [
-      { "id": 7, "name": "Crime" },
-      { "id": 6, "name": "Drama" }
-    ],
-    "casts": castData,
-    "releaseDate": "1994-10-14",
-    "runtime": 154,
-    "originalLanguage": "en",
-    "rating": 8.9,
-    "tagline": "Just because you are a character doesn't mean you have character."
-  },
-  {
-    "_id": "1000000007",
-    "id": 1000000007,
-    "title": "The Shawshank Redemption",
-    "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of decency.",
-    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
-    "genres": [
-      { "id": 6, "name": "Drama" }
-    ],
-    "casts": castData,
-    "releaseDate": "1994-09-23",
-    "runtime": 142,
-    "originalLanguage": "en",
-    "rating": 9.3,
-    "tagline": "Fear can hold you prisoner. Hope can set you free."
-  },
-  {
-    "_id": "1000000008",
-    "id": 1000000008,
-    "title": "Gladiator",
-    "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
-    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
-    "genres": [
-      { "id": 1, "name": "Action" },
-      { "id": 6, "name": "Drama" },
-      { "id": 7, "name": "Crime" }
-    ],
-    "casts": castData,
-    "releaseDate": "2000-05-01",
-    "runtime": 155,
-    "originalLanguage": "en",
-    "rating": 8.5,
-    "tagline": "What we do in life echoes in eternity."
-  },
-  {
-    "_id": "1000000009",
-    "id": 1000000009,
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "overview": "A meek Hobbit and eight companions set out to destroy the One Ring and save Middle-earth.",
-    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "genres": [
-      { "id": 3, "name": "Adventure" },
-      { "id": 9, "name": "Fantasy" }
-    ],
-    "casts": castData,
-    "releaseDate": "2001-12-19",
-    "runtime": 178,
-    "originalLanguage": "en",
-    "rating": 8.8,
-    "tagline": "One ring to rule them all."
-  },
-  {
-    "_id": "1000000010",
-    "id": 1000000010,
-    "title": "Avatar",
-    "overview": "A paraplegic Marine dispatched to the moon Pandora becomes torn between following orders and protecting an alien civilization.",
-    "poster": "https://image.tmdb.org/t/p/w500/kmcqlZGaSh20zpTbuoF0Fvtn6yT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/xLv2oZOVrH7n5TfjrGzSQPh7Zx1.jpg",
-    "genres": [
-      { "id": 2, "name": "Science Fiction" },
-      { "id": 3, "name": "Adventure" }
-    ],
-    "casts": castData,
-    "releaseDate": "2009-12-18",
-    "runtime": 162,
-    "originalLanguage": "en",
-    "rating": 7.8,
-    "tagline": "Enter the world of Pandora."
-  },
-  {
-    "_id": "1000000011",
-    "id": 1000000011,
-    "title": "Titanic",
-    "overview": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious Titanic.",
-    "poster": "https://image.tmdb.org/t/p/w500/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
-    "genres": [
-      { "id": 6, "name": "Drama" },
-      { "id": 4, "name": "Romance" }
-    ],
-    "casts": castData,
-    "releaseDate": "1997-12-19",
-    "runtime": 195,
-    "originalLanguage": "en",
-    "rating": 7.9,
-    "tagline": "Nothing on Earth could come between them."
-  },
-  {
-    "_id": "1000000012",
-    "id": 1000000012,
-    "title": "The Avengers",
-    "overview": "Earth's mightiest heroes must come together to stop Loki and his alien army from enslaving humanity.",
-    "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w500/hbn1axvAqQfA9ApgZ4xODiRkhZj.jpg",
-    "genres": [
-      { "id": 1, "name": "Action" },
-      { "id": 2, "name": "Science Fiction" },
-      { "id": 3, "name": "Adventure" }
-    ],
-    "casts": castData,
-    "releaseDate": "2012-05-04",
-    "runtime": 143,
-    "originalLanguage": "en",
-    "rating": 8.0,
-    "tagline": "Some assembly required."
-  },
+        "_id": "324544",
+        "id": 324544,
+        "title": "In the Lost Lands",
+        "overview": "A queen sends the powerful and feared sorceress Gray Alys to the ghostly wilderness of the Lost Lands in search of a magical power, where she and her guide, the drifter Boyce, must outwit and outfight both man and demon.",
+        "poster_path": "https://image.tmdb.org/t/p/original/dDlfjR7gllmr8HTeN6rfrYhTdwX.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/op3qmNhvwEvyT7UFyPbIfQmKriB.jpg",
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 14, "name": "Fantasy" },
+            { "id": 12, "name": "Adventure" }
+        ],
+        "casts": castData,
+        "release_date": "2025-02-27",
+        "original_language": "en",
+        "tagline": "She seeks the power to free her people.",
+        "vote_average": 6.4,
+        "vote_count": 15000,
+        "runtime": 102,
+    },
+    {
+        "_id": "1232546",
+        "id": 1232546,
+        "title": "Until Dawn",
+        "overview": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
+        "poster_path": "https://image.tmdb.org/t/p/original/juA4IWO52Fecx8lhAsxmDgy3M3.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/icFWIk1KfkWLZnugZAJEDauNZ94.jpg",
+        "genres": [
+            { "id": 27, "name": "Horror" },
+            { "id": 9648, "name": "Mystery" }
+        ],
+        "casts": castData,
+        "release_date": "2025-04-23",
+        "original_language": "en",
+        "tagline": "Every night a different nightmare.",
+        "vote_average": 6.405,
+        "vote_count": 18000,
+        "runtime": 103,
+    },
+    {
+        "_id": "552524",
+        "id": 552524,
+        "title": "Lilo & Stitch",
+        "overview": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
+        "poster_path": "https://image.tmdb.org/t/p/original/mKKqV23MQ0uakJS8OCE2TfV5jNS.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+        "genres": [
+            { "id": 10751, "name": "Family" },
+            { "id": 35, "name": "Comedy" },
+            { "id": 878, "name": "Science Fiction" }
+        ],
+        "casts": castData,
+        "release_date": "2025-05-17",
+        "original_language": "en",
+        "tagline": "Hold on to your coconuts.",
+        "vote_average": 7.117,
+        "vote_count": 27500,
+        "runtime": 108,
+    },
+    {
+        "_id": "668489",
+        "id": 668489,
+        "title": "Havoc",
+        "overview": "When a drug heist swerves lethally out of control, a jaded cop fights his way through a corrupt city's criminal underworld to save a politician's son.",
+        "poster_path": "https://image.tmdb.org/t/p/original/ubP2OsF3GlfqYPvXyLw9d78djGX.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/65MVgDa6YjSdqzh7YOA04mYkioo.jpg",
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 80, "name": "Crime" },
+            { "id": 53, "name": "Thriller" }
+        ],
+        "casts": castData,
+        "release_date": "2025-04-25",
+        "original_language": "en",
+        "tagline": "No law. Only disorder.",
+        "vote_average": 6.537,
+        "vote_count": 35960,
+        "runtime": 107,
+    },
+    {
+        "_id": "950387",
+        "id": 950387,
+        "title": "A Minecraft Movie",
+        "overview": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+        "poster_path": "https://image.tmdb.org/t/p/original/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+        "genres": [
+            { "id": 10751, "name": "Family" },
+            { "id": 35, "name": "Comedy" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 14, "name": "Fantasy" }
+        ],
+        "casts": castData,
+        "release_date": "2025-03-31",
+        "original_language": "en",
+        "tagline": "Be there and be square.",
+        "vote_average": 6.516,
+        "vote_count": 15225,
+        "runtime": 101,
+    },
+    {
+        "_id": "575265",
+        "id": 575265,
+        "title": "Mission: Impossible - The Final Reckoning",
+        "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+        "poster_path": "https://image.tmdb.org/t/p/original/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/1p5aI299YBnqrEEvVGJERk2MXXb.jpg",
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 12, "name": "Adventure" },
+            { "id": 53, "name": "Thriller" }
+        ],
+        "casts": castData,
+        "release_date": "2025-05-17",
+        "original_language": "en",
+        "tagline": "Our lives are the sum of our choices.",
+        "vote_average": 7.042,
+        "vote_count": 19885,
+        "runtime": 170,
+    },
+    {
+        "_id": "986056",
+        "id": 986056,
+        "title": "Thunderbolts*",
+        "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+        "poster_path": "https://image.tmdb.org/t/p/original/m9EtP1Yrzv6v7dMaC9mRaGhd1um.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/original/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+        "genres": [
+            { "id": 28, "name": "Action" },
+            { "id": 878, "name": "Science Fiction" },
+            { "id": 12, "name": "Adventure" }
+        ],
+        "casts": castData,
+        "release_date": "2025-04-30",
+        "original_language": "en",
+        "tagline": "Everyone deserves a second shot.",
+        "vote_average": 7.443,
+        "vote_count": 23569,
+        "runtime": 127,
+    }
 ];
 
 
@@ -233,10 +149,5 @@ export const showsData = [
 // Leave it blank instead as shown below.
 
 /*
-
-export const achievementData = {
-    bio : "",
-    achievements : []
-}
 
 */

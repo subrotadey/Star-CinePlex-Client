@@ -1,110 +1,19 @@
 export const castData = [
-
-  
-
-
-
-
-
-
-  {
-    "name": "Leonardo DiCaprio",
-    "role": "Lead Actor",
-    "image": "https://i.ibb.co/kV3xZtyQ/Leonardo-Di-Caprio.jpg"
-  },
-  {
-    "name": "Joseph Gordon-Levitt",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/ZpKbFYnb/Joseph-Gordon-Levitt.jpg"
-  },
-  {
-    "name": "Elliot Page",
-    "role": "Supporting Actress",
-    "image": "https://i.ibb.co/zh1jzcpc/Elliot-Page.jpg"
-  },
-  {
-    "name": "Tom Hardy",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
-  },
-  {
-    "name": "Ken Watanabe",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/6zg25cL/Ken-Watanabe.jpg"
-  },
-  {
-    "name": "Dileep Rao",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/Xv5SvrW/Dileep-Rao.jpg"
-  },
-  {
-    "name": "Cillian Murphy",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/CKSh34Mp/Cillian-Murphy.jpg"
-  },
-  {
-    "name": "Marion Cotillard",
-    "role": "Supporting Actress",
-    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
-  },
-  {
-    "name": "Michael Caine",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
-  },
-  {
-    "name": "Tom Berenger",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
-  },
-  {
-    "name": "Pete Postlethwaite",
-    "role": "Supporting Actor",
-    "image": "https://i.ibb.co/JWGhkWDf/Tom-Hardy.jpg"
-  },
-  {
-    "name": "Lukas Haas",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Lukas_Haas_2010.jpg"
-  },
-  {
-    "name": "Tommy Lee Jones",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tommy_Lee_Jones_2010.jpg"
-  },
-  {
-    "name": "Anne Hathaway",
-    "role": "Supporting Actress",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Anne_Hathaway_2013.jpg"
-  },
-  {
-    "name": "Matthew McConaughey",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Matthew_McConaughey_2011.jpg"
-  },
-  {
-    "name": "Jessica Chastain",
-    "role": "Supporting Actress",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Jessica_Chastain_2016.jpg"
-  },
-  {
-    "name": "Christian Bale",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Christian_Bale_2014.jpg"
-  },
-  {
-    "name": "Heath Ledger",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Heath_Ledger_2006.jpg"
-  },
-  {
-    "name": "Gary Oldman",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gary_Oldman_2011.jpg"
-  },
-  {
-    "name": "Morgan Freeman",
-    "role": "Supporting Actor",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Morgan_Freeman_Deauville_2018.jpg"
-  }
+  { "name": "Milla Jovovich", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
+  { "name": "Dave Bautista", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
+  { "name": "Arly Jover", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
+  { "name": "Amara Okereke", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", },
+  { "name": "Fraser James", "profile_path": "https://image.tmdb.org/t/p/original/mGAPQG2OKTgdKFkp9YpvCSqcbgY.jpg", },
+  { "name": "Deirdre Mullins", "profile_path": "https://image.tmdb.org/t/p/original/lJm89neuiVlYISEqNpGZA5kTAnP.jpg", },
+  { "name": "Sebastian Stankiewicz", "profile_path": "https://image.tmdb.org/t/p/original/hLN0Ca09KwQOFLZLPIEzgTIbqqg.jpg", },
+  { "name": "Tue Lunding", "profile_path": "https://image.tmdb.org/t/p/original/qY4W0zfGBYzlCyCC0QDJS1Muoa0.jpg", },
+  { "name": "Jacek Dzisiewicz", "profile_path": "https://image.tmdb.org/t/p/original/6Ksb8ANhhoWWGnlM6O1qrySd7e1.jpg", },
+  { "name": "Ian Hanmore", "profile_path": "https://image.tmdb.org/t/p/original/yhI4MK5atavKBD9wiJtaO1say1p.jpg", },
+  { "name": "Eveline Hall", "profile_path": "https://image.tmdb.org/t/p/original/uPq4xUPiJIMW5rXF9AT0GrRqgJY.jpg", },
+  { "name": "Kamila Klamut", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
+  { "name": "Caoilinn Springall", "profile_path": "https://image.tmdb.org/t/p/original/uZNtbPHowlBYo74U1qlTaRlrdiY.jpg", },
+  { "name": "Jan Kowalewski", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
+  { "name": "Pawel Wysocki", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
+  { "name": "Simon Lööf", "profile_path": "https://image.tmdb.org/t/p/original/cbZrB8crWlLEDjVUoak8Liak6s.jpg", },
+  { "name": "Tomasz Cymerman", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", }
 ];
