@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListBooking = () => {
+const ListBookings = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const ListBooking = () => {
     );
 };
 
-export default ListBooking;
+export default ListBookings;

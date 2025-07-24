@@ -3,7 +3,7 @@ import { bookingData } from "../../data/bookingData";
 import Loading from "../../components/Loading/Loading";
 import BlurCircle from "../../utils/BlurCircle";
 import timeFormat from "../../lib/timeFormat";
-import { dateFormat } from "../../lib/dateFormat";
+import dateFormat from "../../lib/dateFormat";
 
 const MyBookings = () => {
   const currency = import.meta.env.VITE_CURRENCY;

@@ -1,6 +1,6 @@
 import { showsData } from './showsData';
 
-export const bookingData = {
+export const dashboardData = {
     "totalBookings": 14,
     "totalRevenue": 1517,
     "totalUser": 5,
