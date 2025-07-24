@@ -3,7 +3,7 @@ import { showsData } from "./showsData"
 export const bookingData = [
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "GreatStack", },
+        "user": { "name": "Subrota Dey", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: showsData[0],
@@ -16,7 +16,7 @@ export const bookingData = [
     },
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "GreatStack", },
+        "user": { "name": "Subrota Dey", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: showsData[0],
@@ -29,7 +29,7 @@ export const bookingData = [
     },
     {
         "_id": "68396334fb83252d82e17295",
-        "user": { "name": "GreatStack", },
+        "user": { "name": "Subrota Dey", },
         "show": {
             _id: "68352363e96d99513e4221a4",
             movie: showsData[0],
